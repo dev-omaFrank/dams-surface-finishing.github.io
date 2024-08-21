@@ -67,14 +67,14 @@
                 }
             }
         });
-
+        //<i class="bx bx-caret-right" style="color:#ffffff"></i>
         // review-active
         $('.testmonial_active').owlCarousel({
             loop: true,
             margin: 30,
             items: 1,
-            // autoplay:true,
-            navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+            autoplay: true,
+            navText: ['<i class="bx bx-caret-right" style="color:#ffffff"></i>', '<i class="bx bx-caret-left" style="color:#ffffff"></i>'],
             nav: true,
             dots: false,
             autoplayHoverPause: true,
@@ -99,7 +99,8 @@
                     nav: false
                 },
                 1500: {
-                    items: 1
+                    items: 1,
+                    nav: false
                 }
             }
         });
