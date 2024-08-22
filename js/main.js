@@ -67,7 +67,7 @@
                 }
             }
         });
-        //<i class="bx bx-caret-right" style="color:#ffffff"></i>
+
         // review-active
         $('.testmonial_active').owlCarousel({
             loop: true,
@@ -111,7 +111,7 @@
             margin: 30,
             items: 1,
             autoplay: true,
-            navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+            navText: ['<i class="bx bx-caret-left" style="color:#fff" ></i>', '<i class="bx bx-caret-right" style="color:#fff" ></i>'],
             nav: true,
             dots: false,
             autoplayHoverPause: true,
@@ -145,7 +145,7 @@
             margin: 30,
             items: 1,
             autoplay: false,
-            navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+            navText: ['<i class="bx bx-caret-left" style="color:#fff" ></i>', '<i class="bx bx-caret-right" style="color:#fff" ></i>'],
             nav: true,
             dots: true,
             autoplayHoverPause: true,
@@ -182,7 +182,7 @@
             margin: 30,
             items: 1,
             autoplay: false,
-            navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+            navText: ['<i class="bx bx-caret-left" style="color:#fff" ></i>', '<i class="bx bx-caret-right" style="color:#fff" ></i>'],
             nav: true,
             dots: true,
             autoplayHoverPause: true,
@@ -363,7 +363,7 @@
             margin: 0,
             items: 1,
             // autoplay:true,
-            navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+            navText: ['<i class="bx bx-caret-left" style="color:#fff" ></i>', '<i class="bx bx-caret-right" style="color:#fff" ></i>'],
             nav: true,
             dots: false,
             // autoplayHoverPause: true,

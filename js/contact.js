@@ -22,7 +22,7 @@ $(document).ready(function() {
                     },
                     number: {
                         required: true,
-                        minlength: 5
+                        minlength: 10
                     },
                     email: {
                         required: true,
@@ -30,7 +30,7 @@ $(document).ready(function() {
                     },
                     message: {
                         required: true,
-                        minlength: 20
+                        minlength: 10
                     }
                 },
                 messages: {
@@ -44,13 +44,13 @@ $(document).ready(function() {
                     },
                     number: {
                         required: "Enter phone number",
-                        minlength: "Your number must consist of 11 characters"
+                        minlength: "You must enter a valid phone number"
                     },
                     email: {
                         required: "Enter email address"
                     },
                     message: {
-                        required: "What'son your mind?",
+                        required: "What's on your mind?",
                         minlength: "Message box cannot be empty"
                     }
                 },
